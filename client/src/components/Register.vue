@@ -8,24 +8,24 @@
 
         <div class="pl-4 pr-4 pt-2 pb-2">
           <input
-          type="email"
-          name="email"
-          v-model="email"
-          placeholder="email" />
-        <br>
-        <input
-          type="password"
-          name="password"
-          v-model="password"
-          placeholder="password" />
-        <br>
-        <div class="error" v-html="error" />
-        <br>
-        <v-btn
-          class="cyan"
-          @click="register">
-          Register
-        </v-btn>
+            type="email"
+            name="email"
+            v-model="email"
+            placeholder="email" />
+          <br>
+          <input
+            type="password"
+            name="password"
+            v-model="password"
+            placeholder="password" />
+          <br>
+          <div class="error" v-html="error" />
+          <br>
+          <v-btn
+            class="cyan"
+            @click="register">
+            Register
+          </v-btn>
         </div>
       </div>
     </v-flex>
